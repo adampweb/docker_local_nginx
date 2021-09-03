@@ -24,7 +24,7 @@ RUN set -x \
 WORKDIR /var/www
 
 # Test file: call the phpinfo() function
-COPY scripts/index.php /var/www/html/index.php
+COPY scripts/index.html /var/www/html/index.html
 
 # Open the default HTTPS (SSL) port
 EXPOSE	443
